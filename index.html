@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .container{
+                margin-left: 50px;
+                margin-top: 50px;
+                height: 400px;
+                width: 90%;
+                background-color: rgb(200, 199, 199);
+            }
+            h3{
+                padding: 20px;
+                text-align: center;
+                font-size: 25px;
+            }
+            p{
+                text-align: center;
+            }
+            input{
+                text-align: center;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+            #ans{
+                background-color: yellow;
+            }
+            ::placeholder{
+                color: brown;
+                font-weight: bold;
+            }
+            button{
+                background-color: rgb(91, 176, 191);
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: rgb(13, 114, 93);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h3>Guess The Next number</h3>
+            <p>Guess the next number based on given pattern:-</p>
+            <br>
+            <input type="number" name="" id="box1">
+            <input type="number" name="" id="box2">
+            <input type="number" name="" id="box3">
+            <input type="number" name="" id="box4">
+
+            <input type="number" name="" id="ans" placeholder="?">
+            <button onclick="myfunct()"><b> Check Answer</b></button>
+            <br>
+            <h3 id="correctans"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
